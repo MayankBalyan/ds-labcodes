@@ -68,6 +68,7 @@ int height(struct Node *root){
     int rtht=height(root->right);
     return (leftht>rtht?leftht:rtht)+1;
 }
+
 int main()
 {
     int pre_order[]={1,2,-1,-1,3,4,-1,-1,5,-1,-1}; 
